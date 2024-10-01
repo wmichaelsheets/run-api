@@ -1,0 +1,1202 @@
+{
+    "shoes": [
+      {
+        "id": 1,
+        "name": "Vomero Zoom 13a",
+        "added": "2023-01-15",
+        "retired": true,
+        "user_id": 1,
+        "notes": "Highly cushioned."
+      },
+      {
+        "id": 2,
+        "name": "Vomero Zoom 13b",
+        "added": "2023-02-20",
+        "retired": false,
+        "user_id": 1,
+        "notes": "Highly cushioned."
+      },
+      {
+        "id": 3,
+        "name": "Gel Nimbus 22",
+        "added": "2023-02-20",
+        "retired": false,
+        "user_id": 1,
+        "notes": "Great all around."
+      },
+      {
+        "id": 4,
+        "name": "1080 V10",
+        "added": "2023-02-20",
+        "retired": false,
+        "user_id": 1,
+        "notes": "Meh. Pain after running in these?"
+      },
+      {
+        "id": 5,
+        "name": "Kinvara 6",
+        "added": "2023-02-20",
+        "retired": true,
+        "user_id": 1,
+        "notes": "Low drop. Lightweight."
+      },
+      {
+        "id": 6,
+        "name": "Speed Strike",
+        "added": "2023-02-20",
+        "retired": false,
+        "user_id": 1,
+        "notes": "Trail shoes."
+      }
+    ],
+    "users": [
+      {
+        "id": 1,
+        "name": "John Doe",
+        "dob": "1990-05-15",
+        "created_at": "2023-01-10T14:48:00Z"
+      },
+      {
+        "id": 2,
+        "name": "Jane Smith",
+        "dob": "1985-07-22",
+        "created_at": "2023-01-11T15:30:00Z"
+      }
+    ],
+    "runs": [
+      {
+        "id": 1,
+        "name": "Morning Run",
+        "occur": "2023-03-01T06:30:00Z",
+        "distance": 5.0,
+        "duration": 30.0,
+        "type_id": 1,
+        "user_id": 1,
+        "shoe_id": 1,
+        "notes": "Felt great, perfect weather."
+      },
+      {
+        "id": 2,
+        "name": "Evening Jog",
+        "occur": "2023-03-02T18:00:00Z",
+        "distance": 3.5,
+        "duration": 25.0,
+        "type_id": 2,
+        "user_id": 2,
+        "shoe_id": 2,
+        "notes": "A bit tired, but managed to finish."
+      },
+      {
+        "id": 3,
+        "name": "Base Run",
+        "occur": "2023-03-03T06:00:00Z",
+        "distance": 8.0,
+        "duration": 80.0,
+        "type_id": 1,
+        "user_id": 1,
+        "shoe_id": 1,
+        "notes": "Felt good, steady pace."
+      },
+      {
+        "id": 4,
+        "name": "Hill Repeats",
+        "occur": "2023-03-04T06:30:00Z",
+        "distance": 6.0,
+        "duration": 66.0,
+        "type_id": 7,
+        "user_id": 1,
+        "shoe_id": 2,
+        "notes": "Challenging hills, but manageable."
+      },
+      {
+        "id": 5,
+        "name": "Base Run",
+        "occur": "2023-03-06T06:00:00Z",
+        "distance": 8.0,
+        "duration": 80.0,
+        "type_id": 1,
+        "user_id": 1,
+        "shoe_id": 1,
+        "notes": "Easy run, good weather."
+      },
+      {
+        "id": 6,
+        "name": "Tempo Run",
+        "occur": "2023-03-07T06:00:00Z",
+        "distance": 5.0,
+        "duration": 45.0,
+        "type_id": 4,
+        "user_id": 1,
+        "shoe_id": 2,
+        "notes": "Pushed the pace, felt strong."
+      },
+      {
+        "id": 7,
+        "name": "Recovery Run",
+        "occur": "2023-03-08T06:30:00Z",
+        "distance": 4.5,
+        "duration": 50.0,
+        "type_id": 2,
+        "user_id": 1,
+        "shoe_id": 1,
+        "notes": "Easy recovery, legs felt a bit tired."
+      },
+      {
+        "id": 8,
+        "name": "Base Run",
+        "occur": "2023-03-09T06:00:00Z",
+        "distance": 8.0,
+        "duration": 80.0,
+        "type_id": 1,
+        "user_id": 1,
+        "shoe_id": 2,
+        "notes": "Back to normal pace."
+      },
+      {
+        "id": 9,
+        "name": "Hill Repeats",
+        "occur": "2023-03-10T06:30:00Z",
+        "distance": 6.0,
+        "duration": 66.0,
+        "type_id": 7,
+        "user_id": 1,
+        "shoe_id": 1,
+        "notes": "Tough hills today."
+      },
+      {
+        "id": 10,
+        "name": "Base Run",
+        "occur": "2023-03-11T06:00:00Z",
+        "distance": 8.0,
+        "duration": 80.0,
+        "type_id": 1,
+        "user_id": 1,
+        "shoe_id": 2,
+        "notes": "Steady run."
+      },
+      {
+        "id": 11,
+        "name": "Long Run",
+        "occur": "2023-03-12T06:00:00Z",
+        "distance": 12.0,
+        "duration": 126.0,
+        "type_id": 3,
+        "user_id": 1,
+        "shoe_id": 1,
+        "notes": "First long run, felt good."
+      },
+      {
+        "id": 12,
+        "name": "Recovery Run",
+        "occur": "2023-03-14T06:30:00Z",
+        "distance": 4.0,
+        "duration": 44.0,
+        "type_id": 2,
+        "user_id": 1,
+        "shoe_id": 2,
+        "notes": "Recovering from long run."
+      },
+      {
+        "id": 13,
+        "name": "Base Run",
+        "occur": "2023-03-15T06:00:00Z",
+        "distance": 8.0,
+        "duration": 80.0,
+        "type_id": 1,
+        "user_id": 1,
+        "shoe_id": 1,
+        "notes": "Back to normal."
+      },
+      {
+        "id": 14,
+        "name": "Fartlek Run",
+        "occur": "2023-03-16T06:30:00Z",
+        "distance": 7.0,
+        "duration": 70.0,
+        "type_id": 6,
+        "user_id": 1,
+        "shoe_id": 2,
+        "notes": "Fun mix of speeds."
+      },
+      {
+        "id": 15,
+        "name": "Hill Repeats",
+        "occur": "2023-03-17T06:30:00Z",
+        "distance": 6.5,
+        "duration": 69.0,
+        "type_id": 7,
+        "user_id": 1,
+        "shoe_id": 1,
+        "notes": "Pushed hard on hills."
+      },
+      {
+        "id": 16,
+        "name": "Base Run",
+        "occur": "2023-03-18T06:00:00Z",
+        "distance": 8.0,
+        "duration": 80.0,
+        "type_id": 1,
+        "user_id": 1,
+        "shoe_id": 2,
+        "notes": "Enjoyable run."
+      },
+      {
+        "id": 17,
+        "name": "Tempo Run",
+        "occur": "2023-03-19T06:00:00Z",
+        "distance": 5.0,
+        "duration": 45.0,
+        "type_id": 4,
+        "user_id": 1,
+        "shoe_id": 1,
+        "notes": "Felt strong."
+      },
+      {
+        "id": 18,
+        "name": "Recovery Run",
+        "occur": "2023-03-20T06:30:00Z",
+        "distance": 4.5,
+        "duration": 50.0,
+        "type_id": 2,
+        "user_id": 1,
+        "shoe_id": 2,
+        "notes": "Easy recovery."
+      },
+      {
+        "id": 19,
+        "name": "Interval Run",
+        "occur": "2023-03-21T06:00:00Z",
+        "distance": 6.0,
+        "duration": 60.0,
+        "type_id": 5,
+        "user_id": 1,
+        "shoe_id": 1,
+        "notes": "Intervals felt tough."
+      },
+      {
+        "id": 20,
+        "name": "Recovery Run",
+        "occur": "2023-03-22T06:30:00Z",
+        "distance": 4.5,
+        "duration": 50.0,
+        "type_id": 2,
+        "user_id": 1,
+        "shoe_id": 2,
+        "notes": "Legs a bit sore."
+      },
+      {
+        "id": 21,
+        "name": "Long Run",
+        "occur": "2023-03-23T06:00:00Z",
+        "distance": 13.0,
+        "duration": 136.5,
+        "type_id": 3,
+        "user_id": 1,
+        "shoe_id": 1,
+        "notes": "Longest run so far."
+      },
+      {
+        "id": 22,
+        "name": "Base Run",
+        "occur": "2023-03-25T06:00:00Z",
+        "distance": 8.0,
+        "duration": 80.0,
+        "type_id": 1,
+        "user_id": 1,
+        "shoe_id": 2,
+        "notes": ""
+      },
+      {
+        "id": 23,
+        "name": "Fartlek Run",
+        "occur": "2023-03-26T06:30:00Z",
+        "distance": 7.0,
+        "duration": 70.0,
+        "type_id": 6,
+        "user_id": 1,
+        "shoe_id": 1,
+        "notes": "Enjoyable mix of speeds."
+      },
+      {
+        "id": 24,
+        "name": "Hill Repeats",
+        "occur": "2023-03-27T06:30:00Z",
+        "distance": 6.5,
+        "duration": 71.5,
+        "type_id": 7,
+        "user_id": 1,
+        "shoe_id": 2,
+        "notes": "Hills felt easier."
+      },
+      {
+        "id": 25,
+        "name": "Base Run",
+        "occur": "2023-03-28T06:00:00Z",
+        "distance": 8.0,
+        "duration": 80.0,
+        "type_id": 1,
+        "user_id": 1,
+        "shoe_id": 1,
+        "notes": ""
+      },
+      {
+        "id": 26,
+        "name": "Base Run",
+        "occur": "2023-03-29T06:00:00Z",
+        "distance": 8.0,
+        "duration": 80.0,
+        "type_id": 1,
+        "user_id": 1,
+        "shoe_id": 2,
+        "notes": ""
+      },
+      {
+        "id": 27,
+        "name": "Tempo Run",
+        "occur": "2023-03-30T06:00:00Z",
+        "distance": 6.0,
+        "duration": 54.0,
+        "type_id": 4,
+        "user_id": 1,
+        "shoe_id": 1,
+        "notes": "Faster pace."
+      },
+      {
+        "id": 28,
+        "name": "Recovery Run",
+        "occur": "2023-03-31T06:30:00Z",
+        "distance": 4.5,
+        "duration": 50.0,
+        "type_id": 2,
+        "user_id": 1,
+        "shoe_id": 2,
+        "notes": ""
+      },
+      {
+        "id": 29,
+        "name": "Long Run",
+        "occur": "2023-04-01T06:00:00Z",
+        "distance": 14.0,
+        "duration": 147.0,
+        "type_id": 3,
+        "user_id": 1,
+        "shoe_id": 1,
+        "notes": "Longest run yet."
+      },
+      {
+        "id": 30,
+        "name": "Base Run",
+        "occur": "2023-04-03T06:00:00Z",
+        "distance": 8.0,
+        "duration": 80.0,
+        "type_id": 1,
+        "user_id": 1,
+        "shoe_id": 2,
+        "notes": ""
+      },
+      {
+        "id": 31,
+        "name": "Hill Repeats",
+        "occur": "2023-04-04T06:30:00Z",
+        "distance": 6.5,
+        "duration": 71.5,
+        "type_id": 7,
+        "user_id": 1,
+        "shoe_id": 1,
+        "notes": ""
+      },
+      {
+        "id": 32,
+        "name": "Base Run",
+        "occur": "2023-04-05T06:00:00Z",
+        "distance": 8.0,
+        "duration": 80.0,
+        "type_id": 1,
+        "user_id": 1,
+        "shoe_id": 2,
+        "notes": ""
+      },
+      {
+        "id": 33,
+        "name": "Progression Run",
+        "occur": "2023-04-06T06:30:00Z",
+        "distance": 8.0,
+        "duration": 78.0,
+        "type_id": 8,
+        "user_id": 1,
+        "shoe_id": 1,
+        "notes": "Nice to finish strong."
+      },
+      {
+        "id": 34,
+        "name": "Base Run",
+        "occur": "2023-04-07T06:00:00Z",
+        "distance": 8.0,
+        "duration": 80.0,
+        "type_id": 1,
+        "user_id": 1,
+        "shoe_id": 2,
+        "notes": ""
+      },
+      {
+        "id": 35,
+        "name": "Tempo Run",
+        "occur": "2023-04-08T06:00:00Z",
+        "distance": 5.0,
+        "duration": 45.0,
+        "type_id": 4,
+        "user_id": 1,
+        "shoe_id": 1,
+        "notes": ""
+      },
+      {
+        "id": 36,
+        "name": "Recovery Run",
+        "occur": "2023-04-09T06:30:00Z",
+        "distance": 4.5,
+        "duration": 50.0,
+        "type_id": 2,
+        "user_id": 1,
+        "shoe_id": 2,
+        "notes": ""
+      },
+      {
+        "id": 37,
+        "name": "Hill Repeats",
+        "occur": "2023-04-10T06:30:00Z",
+        "distance": 7.0,
+        "duration": 77.0,
+        "type_id": 7,
+        "user_id": 1,
+        "shoe_id": 1,
+        "notes": ""
+      },
+      {
+        "id": 38,
+        "name": "Base Run",
+        "occur": "2023-04-11T06:00:00Z",
+        "distance": 8.0,
+        "duration": 80.0,
+        "type_id": 1,
+        "user_id": 1,
+        "shoe_id": 2,
+        "notes": ""
+      },
+      {
+        "id": 39,
+        "name": "Long Run",
+        "occur": "2023-04-12T06:00:00Z",
+        "distance": 15.0,
+        "duration": 157.5,
+        "type_id": 3,
+        "user_id": 1,
+        "shoe_id": 1,
+        "notes": "Reached longest distance."
+      },
+      {
+        "id": 40,
+        "name": "Base Run",
+        "occur": "2023-04-14T06:00:00Z",
+        "distance": 8.0,
+        "duration": 80.0,
+        "type_id": 1,
+        "user_id": 1,
+        "shoe_id": 2,
+        "notes": ""
+      },
+      {
+        "id": 41,
+        "name": "Tempo Run",
+        "occur": "2023-04-15T06:00:00Z",
+        "distance": 6.0,
+        "duration": 54.0,
+        "type_id": 4,
+        "user_id": 1,
+        "shoe_id": 1,
+        "notes": ""
+      },
+      {
+        "id": 42,
+        "name": "Recovery Run",
+        "occur": "2023-04-16T06:30:00Z",
+        "distance": 5.0,
+        "duration": 55.0,
+        "type_id": 2,
+        "user_id": 1,
+        "shoe_id": 2,
+        "notes": ""
+      },
+      {
+        "id": 43,
+        "name": "Base Run",
+        "occur": "2023-04-17T06:00:00Z",
+        "distance": 8.0,
+        "duration": 80.0,
+        "type_id": 1,
+        "user_id": 1,
+        "shoe_id": 1,
+        "notes": ""
+      },
+      {
+        "id": 44,
+        "name": "Hill Repeats",
+        "occur": "2023-04-18T06:30:00Z",
+        "distance": 6.5,
+        "duration": 71.5,
+        "type_id": 7,
+        "user_id": 1,
+        "shoe_id": 2,
+        "notes": ""
+      },
+      {
+        "id": 45,
+        "name": "Progression Run",
+        "occur": "2023-04-19T06:30:00Z",
+        "distance": 8.0,
+        "duration": 78.0,
+        "type_id": 8,
+        "user_id": 1,
+        "shoe_id": 1,
+        "notes": ""
+      },
+      {
+        "id": 46,
+        "name": "Base Run",
+        "occur": "2023-04-20T06:00:00Z",
+        "distance": 8.0,
+        "duration": 80.0,
+        "type_id": 1,
+        "user_id": 1,
+        "shoe_id": 2,
+        "notes": ""
+      },
+      {
+        "id": 47,
+        "name": "Fartlek Run",
+        "occur": "2023-04-21T06:30:00Z",
+        "distance": 7.0,
+        "duration": 70.0,
+        "type_id": 6,
+        "user_id": 1,
+        "shoe_id": 1,
+        "notes": ""
+      },
+      {
+        "id": 48,
+        "name": "Base Run",
+        "occur": "2023-04-22T06:00:00Z",
+        "distance": 8.0,
+        "duration": 80.0,
+        "type_id": 1,
+        "user_id": 1,
+        "shoe_id": 2,
+        "notes": ""
+      },
+      {
+        "id": 49,
+        "name": "Tempo Run",
+        "occur": "2023-04-23T06:00:00Z",
+        "distance": 5.0,
+        "duration": 45.0,
+        "type_id": 4,
+        "user_id": 1,
+        "shoe_id": 1,
+        "notes": ""
+      },
+      {
+        "id": 50,
+        "name": "Recovery Run",
+        "occur": "2023-04-24T06:30:00Z",
+        "distance": 4.5,
+        "duration": 50.0,
+        "type_id": 2,
+        "user_id": 1,
+        "shoe_id": 2,
+        "notes": ""
+      },
+      {
+        "id": 51,
+        "name": "Base Run",
+        "occur": "2023-05-03T07:00:00Z",
+        "distance": 8.0,
+        "duration": 80.0,
+        "type_id": 1,
+        "user_id": 1,
+        "shoe_id": 3,
+        "notes": "Steady pace, felt good."
+      },
+      {
+        "id": 52,
+        "name": "Hill Repeats",
+        "occur": "2023-05-05T06:30:00Z",
+        "distance": 5.0,
+        "duration": 55.0,
+        "type_id": 7,
+        "user_id": 1,
+        "shoe_id": 4,
+        "notes": "Challenging but rewarding."
+      },
+      {
+        "id": 53,
+        "name": "Long Run",
+        "occur": "2023-05-07T06:00:00Z",
+        "distance": 12.0,
+        "duration": 126.0,
+        "type_id": 3,
+        "user_id": 1,
+        "shoe_id": 5,
+        "notes": "Felt strong throughout."
+      },
+      {
+        "id": 54,
+        "name": "Recovery Run",
+        "occur": "2023-05-09T07:30:00Z",
+        "distance": 4.0,
+        "duration": 44.0,
+        "type_id": 2,
+        "user_id": 1,
+        "shoe_id": 3,
+        "notes": "Easy pace, legs feeling better."
+      },
+      {
+        "id": 55,
+        "name": "Base Run",
+        "occur": "2023-05-11T06:45:00Z",
+        "distance": 8.0,
+        "duration": 80.0,
+        "type_id": 1,
+        "user_id": 1,
+        "shoe_id": 4,
+        "notes": "Consistent pace maintained."
+      },
+      {
+        "id": 56,
+        "name": "Tempo Run",
+        "occur": "2023-05-13T07:00:00Z",
+        "distance": 6.0,
+        "duration": 54.0,
+        "type_id": 4,
+        "user_id": 1,
+        "shoe_id": 5,
+        "notes": "Pushed hard, felt great."
+      },
+      {
+        "id": 57,
+        "name": "Recovery Run",
+        "occur": "2023-05-14T07:30:00Z",
+        "distance": 4.0,
+        "duration": 44.0,
+        "type_id": 2,
+        "user_id": 1,
+        "shoe_id": 3,
+        "notes": "Easy run after yesterday's tempo."
+      },
+      {
+        "id": 58,
+        "name": "Base Run",
+        "occur": "2023-05-16T06:30:00Z",
+        "distance": 8.0,
+        "duration": 80.0,
+        "type_id": 1,
+        "user_id": 1,
+        "shoe_id": 4,
+        "notes": "Felt good, steady pace."
+      },
+      {
+        "id": 59,
+        "name": "Hill Repeats",
+        "occur": "2023-05-18T06:45:00Z",
+        "distance": 5.5,
+        "duration": 60.5,
+        "type_id": 7,
+        "user_id": 1,
+        "shoe_id": 6,
+        "notes": "Tough hills, but managed well."
+      },
+      {
+        "id": 60,
+        "name": "Long Run",
+        "occur": "2023-05-20T06:00:00Z",
+        "distance": 13.0,
+        "duration": 136.5,
+        "type_id": 3,
+        "user_id": 1,
+        "shoe_id": 5,
+        "notes": "Longest run so far, feeling strong."
+      },
+      {
+        "id": 61,
+        "name": "Base Run",
+        "occur": "2023-05-22T07:00:00Z",
+        "distance": 8.0,
+        "duration": 80.0,
+        "type_id": 1,
+        "user_id": 1,
+        "shoe_id": 3,
+        "notes": "Comfortable pace throughout."
+      },
+      {
+        "id": 62,
+        "name": "Interval Training",
+        "occur": "2023-05-24T06:30:00Z",
+        "distance": 6.0,
+        "duration": 57.0,
+        "type_id": 5,
+        "user_id": 1,
+        "shoe_id": 4,
+        "notes": "Intense but productive session."
+      },
+      {
+        "id": 63,
+        "name": "Base Run",
+        "occur": "2023-05-26T07:15:00Z",
+        "distance": 8.0,
+        "duration": 80.0,
+        "type_id": 1,
+        "user_id": 1,
+        "shoe_id": 5,
+        "notes": "Steady pace, felt relaxed."
+      },
+      {
+        "id": 64,
+        "name": "Hill Repeats",
+        "occur": "2023-05-28T06:45:00Z",
+        "distance": 5.5,
+        "duration": 60.5,
+        "type_id": 7,
+        "user_id": 1,
+        "shoe_id": 6,
+        "notes": "Challenging hills, improving strength."
+      },
+      {
+        "id": 65,
+        "name": "Long Run",
+        "occur": "2023-05-30T06:00:00Z",
+        "distance": 14.0,
+        "duration": 147.0,
+        "type_id": 3,
+        "user_id": 1,
+        "shoe_id": 3,
+        "notes": "Longest run yet, feeling accomplished."
+      },
+      {
+        "id": 66,
+        "name": "Recovery Run",
+        "occur": "2023-06-01T07:30:00Z",
+        "distance": 4.5,
+        "duration": 49.5,
+        "type_id": 2,
+        "user_id": 1,
+        "shoe_id": 4,
+        "notes": "Easy pace, legs recovering well."
+      },
+      {
+        "id": 67,
+        "name": "Base Run",
+        "occur": "2023-06-03T07:00:00Z",
+        "distance": 8.0,
+        "duration": 80.0,
+        "type_id": 1,
+        "user_id": 1,
+        "shoe_id": 5,
+        "notes": "Maintained consistent pace."
+      },
+      {
+        "id": 68,
+        "name": "Tempo Run",
+        "occur": "2023-06-05T06:30:00Z",
+        "distance": 6.5,
+        "duration": 58.5,
+        "type_id": 4,
+        "user_id": 1,
+        "shoe_id": 3,
+        "notes": "Pushed hard, feeling stronger."
+      },
+      {
+        "id": 69,
+        "name": "Recovery Run",
+        "occur": "2023-06-06T07:15:00Z",
+        "distance": 4.0,
+        "duration": 44.0,
+        "type_id": 2,
+        "user_id": 1,
+        "shoe_id": 4,
+        "notes": "Easy run after yesterday's tempo."
+      },
+      {
+        "id": 70,
+        "name": "Base Run",
+        "occur": "2023-06-08T06:45:00Z",
+        "distance": 8.0,
+        "duration": 80.0,
+        "type_id": 1,
+        "user_id": 1,
+        "shoe_id": 5,
+        "notes": "Felt good, steady pace."
+      },
+      {
+        "id": 71,
+        "name": "Hill Repeats",
+        "occur": "2023-06-10T06:30:00Z",
+        "distance": 6.0,
+        "duration": 66.0,
+        "type_id": 7,
+        "user_id": 1,
+        "shoe_id": 6,
+        "notes": "Tough session, but improving."
+      },
+      {
+        "id": 72,
+        "name": "Long Run",
+        "occur": "2023-06-12T06:00:00Z",
+        "distance": 15.0,
+        "duration": 157.5,
+        "type_id": 3,
+        "user_id": 1,
+        "shoe_id": 3,
+        "notes": "Longest run to date, feeling strong."
+      },
+      {
+        "id": 73,
+        "name": "Base Run",
+        "occur": "2023-06-14T07:00:00Z",
+        "distance": 8.0,
+        "duration": 80.0,
+        "type_id": 1,
+        "user_id": 1,
+        "shoe_id": 4,
+        "notes": "Comfortable pace throughout."
+      },
+      {
+        "id": 74,
+        "name": "Fartlek",
+        "occur": "2023-06-16T06:45:00Z",
+        "distance": 7.0,
+        "duration": 68.0,
+        "type_id": 6,
+        "user_id": 1,
+        "shoe_id": 5,
+        "notes": "Fun and challenging session."
+      },
+      {
+        "id": 75,
+        "name": "Base Run",
+        "occur": "2023-06-18T07:15:00Z",
+        "distance": 8.0,
+        "duration": 80.0,
+        "type_id": 1,
+        "user_id": 1,
+        "shoe_id": 3,
+        "notes": "Steady pace, feeling good."
+      },
+      {
+        "id": 76,
+        "name": "Hill Repeats",
+        "occur": "2023-06-20T06:30:00Z",
+        "distance": 5.5,
+        "duration": 60.5,
+        "type_id": 7,
+        "user_id": 1,
+        "shoe_id": 6,
+        "notes": "Challenging hills, but getting stronger."
+      },
+      {
+        "id": 77,
+        "name": "Long Run",
+        "occur": "2023-06-22T06:00:00Z",
+        "distance": 14.0,
+        "duration": 147.0,
+        "type_id": 3,
+        "user_id": 1,
+        "shoe_id": 4,
+        "notes": "Solid long run, maintained good pace."
+      },
+      {
+        "id": 78,
+        "name": "Recovery Run",
+        "occur": "2023-06-24T07:30:00Z",
+        "distance": 4.5,
+        "duration": 49.5,
+        "type_id": 2,
+        "user_id": 1,
+        "shoe_id": 5,
+        "notes": "Easy pace, legs feeling refreshed."
+      },
+      {
+        "id": 79,
+        "name": "Base Run",
+        "occur": "2023-06-26T07:00:00Z",
+        "distance": 8.0,
+        "duration": 80.0,
+        "type_id": 1,
+        "user_id": 1,
+        "shoe_id": 3,
+        "notes": "Consistent pace throughout."
+      },
+      {
+        "id": 80,
+        "name": "Tempo Run",
+        "occur": "2023-06-28T06:30:00Z",
+        "distance": 7.0,
+        "duration": 63.0,
+        "type_id": 4,
+        "user_id": 1,
+        "shoe_id": 4,
+        "notes": "Pushed hard, feeling stronger each time."
+      },
+      {
+        "id": 81,
+        "name": "Recovery Run",
+        "occur": "2023-06-29T07:15:00Z",
+        "distance": 4.0,
+        "duration": 44.0,
+        "type_id": 2,
+        "user_id": 1,
+        "shoe_id": 5,
+        "notes": "Easy run after yesterday's tempo."
+      },
+      {
+        "id": 82,
+        "name": "Base Run",
+        "occur": "2023-07-01T06:45:00Z",
+        "distance": 8.0,
+        "duration": 80.0,
+        "type_id": 1,
+        "user_id": 1,
+        "shoe_id": 3,
+        "notes": "Felt good, maintained steady pace."
+      },
+      {
+        "id": 83,
+        "name": "Hill Repeats",
+        "occur": "2023-07-03T06:30:00Z",
+        "distance": 6.0,
+        "duration": 66.0,
+        "type_id": 7,
+        "user_id": 1,
+        "shoe_id": 4,
+        "notes": "Tough hills, but getting stronger."
+      },
+      {
+        "id": 84,
+        "name": "Long Run",
+        "occur": "2023-07-05T06:00:00Z",
+        "distance": 15.0,
+        "duration": 157.5,
+        "type_id": 3,
+        "user_id": 1,
+        "shoe_id": 5,
+        "notes": "Longest run, feeling accomplished."
+      },
+      {
+        "id": 85,
+        "name": "Base Run",
+        "occur": "2023-07-07T07:00:00Z",
+        "distance": 8.0,
+        "duration": 80.0,
+        "type_id": 1,
+        "user_id": 1,
+        "shoe_id": 3,
+        "notes": "Comfortable pace throughout."
+      },
+      {
+        "id": 86,
+        "name": "Interval Training",
+        "occur": "2023-07-09T06:45:00Z",
+        "distance": 6.5,
+        "duration": 61.75,
+        "type_id": 5,
+        "user_id": 1,
+        "shoe_id": 4,
+        "notes": "Intense but productive session."
+      },
+      {
+        "id": 87,
+        "name": "Base Run",
+        "occur": "2023-07-11T07:15:00Z",
+        "distance": 8.0,
+        "duration": 80.0,
+        "type_id": 1,
+        "user_id": 1,
+        "shoe_id": 5,
+        "notes": "Steady pace, feeling strong."
+      },
+      {
+        "id": 88,
+        "name": "Hill Repeats",
+        "occur": "2023-07-13T06:30:00Z",
+        "distance": 5.5,
+        "duration": 60.5,
+        "type_id": 7,
+        "user_id": 1,
+        "shoe_id": 6,
+        "notes": "Challenging hills, but improving."
+      },
+      {
+        "id": 89,
+        "name": "Long Run",
+        "occur": "2023-07-15T06:00:00Z",
+        "distance": 14.0,
+        "duration": 147.0,
+        "type_id": 3,
+        "user_id": 1,
+        "shoe_id": 5,
+        "notes": "Solid long run, maintained good pace."
+      },
+      {
+        "id": 90,
+        "name": "Base Run",
+        "occur": "2023-07-17T07:00:00Z",
+        "distance": 8.0,
+        "duration": 80.0,
+        "type_id": 1,
+        "user_id": 1,
+        "shoe_id": 3,
+        "notes": "Consistent pace, feeling strong."
+      },
+      {
+        "id": 91,
+        "name": "Tempo Run",
+        "occur": "2023-07-19T06:45:00Z",
+        "distance": 7.0,
+        "duration": 63.0,
+        "type_id": 4,
+        "user_id": 1,
+        "shoe_id": 4,
+        "notes": "Pushed hard, good progress."
+      },
+      {
+        "id": 92,
+        "name": "Recovery Run",
+        "occur": "2023-07-20T07:30:00Z",
+        "distance": 4.5,
+        "duration": 49.5,
+        "type_id": 2,
+        "user_id": 1,
+        "shoe_id": 5,
+        "notes": "Easy run after yesterday's tempo."
+      },
+      {
+        "id": 93,
+        "name": "Base Run",
+        "occur": "2023-07-22T07:00:00Z",
+        "distance": 8.0,
+        "duration": 80.0,
+        "type_id": 1,
+        "user_id": 1,
+        "shoe_id": 3,
+        "notes": "Steady pace, felt good throughout."
+      },
+      {
+        "id": 94,
+        "name": "Hill Repeats",
+        "occur": "2023-07-24T06:30:00Z",
+        "distance": 6.0,
+        "duration": 66.0,
+        "type_id": 7,
+        "user_id": 1,
+        "shoe_id": 4,
+        "notes": "Tough hills, but getting stronger."
+      },
+      {
+        "id": 95,
+        "name": "Long Run",
+        "occur": "2023-07-26T06:00:00Z",
+        "distance": 15.0,
+        "duration": 157.5,
+        "type_id": 3,
+        "user_id": 1,
+        "shoe_id": 5,
+        "notes": "Longest run, feeling accomplished."
+      },
+      {
+        "id": 96,
+        "name": "Recovery Run",
+        "occur": "2023-07-28T07:15:00Z",
+        "distance": 4.0,
+        "duration": 44.0,
+        "type_id": 2,
+        "user_id": 1,
+        "shoe_id": 3,
+        "notes": "Easy pace, legs recovering well."
+      },
+      {
+        "id": 97,
+        "name": "Base Run",
+        "occur": "2023-07-30T07:00:00Z",
+        "distance": 8.0,
+        "duration": 80.0,
+        "type_id": 1,
+        "user_id": 1,
+        "shoe_id": 4,
+        "notes": "Consistent pace, feeling strong."
+      },
+      {
+        "id": 98,
+        "name": "Fartlek",
+        "occur": "2023-08-01T06:45:00Z",
+        "distance": 7.0,
+        "duration": 68.0,
+        "type_id": 6,
+        "user_id": 1,
+        "shoe_id": 5,
+        "notes": "Fun and challenging session."
+      },
+      {
+        "id": 99,
+        "name": "Base Run",
+        "occur": "2023-08-03T07:00:00Z",
+        "distance": 8.0,
+        "duration": 80.0,
+        "type_id": 1,
+        "user_id": 1,
+        "shoe_id": 3,
+        "notes": "Steady pace, felt relaxed."
+      },
+      {
+        "id": 100,
+        "name": "Hill Repeats",
+        "occur": "2023-08-05T06:30:00Z",
+        "distance": 5.5,
+        "duration": 60.5,
+        "type_id": 7,
+        "user_id": 1,
+        "shoe_id": 6,
+        "notes": "Last hill session, feeling stronger."
+      }
+    ],
+    "runType": [
+      {
+        "id": 1,
+        "name": "Base"
+      },
+      {
+        "id": 2,
+        "name": "Recovery"
+      },
+      {
+        "id": 3,
+        "name": "Long"
+      },
+      {
+        "id": 4,
+        "name": "Tempo"
+      },
+      {
+        "id": 5,
+        "name": "Interval"
+      },
+      {
+        "id": 6,
+        "name": "Fartlek"
+      },
+      {
+        "id": 7,
+        "name": "Hill Repeats"
+      },
+      {
+        "id": 8,
+        "name": "Progression"
+      }
+    ]
+  }

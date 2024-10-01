@@ -1,0 +1,10 @@
+Shoe 1: 164.5 miles
+Shoe 2: 176.5 miles
+Shoe 3: 101.0 miles
+Shoe 4: 103.0 miles
+Shoe 5: 102.5 miles
+Shoe 6: 35.0 miles
+
+Overall, the runner has accumulated 682.5 miles across all six shoes.
+
+**This data was AI generated, is for the original six shoes and 100 runs, and may not be correct.
