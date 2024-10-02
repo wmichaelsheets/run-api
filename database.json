@@ -54,12 +54,14 @@
         "id": 1,
         "name": "John Doe",
         "dob": "1990-05-15",
+        "email": "jd@johndoe.com",
         "created_at": "2023-01-10T14:48:00Z"
       },
       {
         "id": 2,
         "name": "Jane Smith",
         "dob": "1985-07-22",
+        "email": "js@janesmith.com",
         "created_at": "2023-01-11T15:30:00Z"
       }
     ],
